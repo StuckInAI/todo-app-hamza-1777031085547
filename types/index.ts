@@ -6,3 +6,10 @@ export interface Todo {
 }
 
 export type FilterType = 'all' | 'active' | 'completed';
+
+export interface TodoRow {
+  id: string;
+  text: string;
+  completed: boolean;
+  created_at: string;
+}
